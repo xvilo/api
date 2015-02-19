@@ -2,7 +2,7 @@
 	
 	if($parameters[2] == 'list'){
 
-		$html = file_get_contents("https://static.cibap.nl/ee/beheer/modules/roosters/get_elementen.php?soort=docent&week=8&jaar=2015");
+		$html = file_get_contents("https://static.***.nl/ee/beheer/modules/roosters/get_elementen.php?soort=docent&week=8&jaar=2015");
 		
 		
 		function getTextBetweenTags($tag, $html, $strict=0)
