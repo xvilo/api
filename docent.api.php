@@ -52,7 +52,7 @@ if($parameters[2] == 'list'){
 			preg_match('/\s(\w+)$/', $fullName, $firstName);
 			$lastName = preg_replace('/\s(\w+)$/', '', $fullName);
 			
-			$docent = array("fullname" => $fullName, "firstName" => $firstName[0], "lastName" => $lastName);
+			$docent = array("fullname" => $fullName, "firstName" => $firstName[0], "lastName" => $lastName, "shortcode" => $shortcode[0]);
 			array_push($matches, $docent);
 		}
 		
